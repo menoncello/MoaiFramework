@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>CastZone</Company>
+    <Authors>Eduardo Menoncello</Authors>
+    <PackageProjectUrl>https://dev.azure.com/CastZone/MoaiFramework</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\azure-pipelines.yml" Link="azure-pipelines.yml" />
+    <None Include="..\..\ReadMe.md" Link="ReadMe.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.4.0" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
