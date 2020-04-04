@@ -16,4 +16,4 @@ jobs:
     - name: Pack with dotnet
       run: dotnet pack src/MoaiFramework.sln --configuration Release
     - name: Pack with dotnet
-      run: dotnet nuget push "bin/Release/MoaiFramework.1.1.0.nupkg" --source "github"
+      run: dotnet nuget push "/src/bin/Release/MoaiFramework.1.1.0.nupkg" --source "github"
